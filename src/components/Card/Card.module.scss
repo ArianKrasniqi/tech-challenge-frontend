@@ -5,7 +5,8 @@ $card-border: 1px solid $grey-card-border;
 
 .wrapper {
   display: flex;
-  flex: 1;
+  height: 60vh;
+  overflow: auto;
   border: $card-border;
   border-radius: $rounded;
   flex-direction: column;
