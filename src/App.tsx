@@ -15,10 +15,7 @@ function App() {
         <Tab label="sessions" value="/" to="/"></Tab>
         <Tab label="Stats" value="/stats" to="/stats"></Tab>
       </Tabs>
-      <Switch>
-        <Route path="/" exact component={SessionsListPage} />
-        <Route path="/stats" exact component={StatsPage} />
-      </Switch>
+      <Routes />
     </Page>
   )
 }
